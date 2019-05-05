@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Flear {
     String name;
     float price;
@@ -26,7 +29,7 @@ public class Flear {
     public void setRating(int value) {
         this.rating = value;
     }
-    /*public boolean equals(Object object) {
+  /*  public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
         if (!super.equals(object)) return false;
@@ -36,5 +39,6 @@ public class Flear {
     public int hashCode() {
         return Objects.hash(super.hashCode(), name);
     }*/
+
 }
 

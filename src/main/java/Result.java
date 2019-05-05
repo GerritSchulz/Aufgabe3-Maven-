@@ -2,6 +2,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+// Mehr Informationen in der ReadMe
+
 public class Result implements Comparator<Flear> {
 
 Comparator<Flear> compareRatings = Comparator.comparing(Flear::getRating).reversed();
@@ -49,7 +52,7 @@ Comparator<Flear> compareRatings = Comparator.comparing(Flear::getRating).revers
                 if(i!=j){
                 flears.get(j).getPrice();
                 flears.get(j).getRating();
-                System.out.println(i+" "+ j);
+                //System.out.println(i+" "+ j);
                 }
             }
         }
